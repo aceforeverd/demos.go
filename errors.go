@@ -1,4 +1,4 @@
-package main
+package demos
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ func sqrt(x float64) (float64, error) {
 	return math.Sqrt(x), nil
 }
 
-func main() {
+func errorMain() {
 	fmt.Println(sqrt(2))
 	fmt.Println(sqrt(-2))
 }
